@@ -1,8 +1,8 @@
+package ru.bykov
+
 import rx.Completable
-import rx.Observable
 import rx.schedulers.Schedulers
 import java.util.concurrent.ThreadLocalRandom
-import java.util.concurrent.atomic.AtomicBoolean
 
 fun main(args: Array<String>) {
 //    val first = AtomicBoolean(true)
@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 //        Observable.just(1)
 //    }
 //            .flatMap {
-//                Observable.fromCallable { intenseCalculation(it.toString()) }
+//                Observable.fromCallable { ru.bykov.intenseCalculation(it.toString()) }
 //                        .observeOn(Schedulers.newThread())
 //                        .startWith("zero")
 //                        .doOnNext {

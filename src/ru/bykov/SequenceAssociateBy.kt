@@ -1,3 +1,5 @@
+package ru.bykov
+
 fun main(args: Array<String>) {
     val categories = listOf(
         OperationCategory(1, "Category 1", OperationType.INCOMING),

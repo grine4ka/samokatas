@@ -1,9 +1,9 @@
-package leetcode
+package ru.bykov.leetcode
 
 import java.util.*
 
 /**
- * https://leetcode.com/problems/my-calendar-i/
+ * https://ru.bykov.leetcode.com/problems/my-calendar-i/
  */
 fun main(args: Array<String>) {
 

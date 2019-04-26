@@ -1,3 +1,5 @@
+package ru.bykov
+
 fun main(args: Array<String>) {
     val map = mutableMapOf(
         "foo" to "bar",
