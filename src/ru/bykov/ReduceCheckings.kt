@@ -1,5 +1,6 @@
+package ru.bykov
+
 import rx.Observable
-import java.util.*
 
 fun main(args: Array<String>) {
 

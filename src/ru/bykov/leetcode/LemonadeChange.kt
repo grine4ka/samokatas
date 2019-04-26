@@ -1,7 +1,7 @@
-package leetcode
+package ru.bykov.leetcode
 
 /**
- * https://leetcode.com/problems/lemonade-change/description/
+ * https://ru.bykov.leetcode.com/problems/lemonade-change/description/
  */
 fun main(args: Array<String>) {
 

@@ -1,7 +1,7 @@
-package leetcode
+package ru.bykov.leetcode
 
 /**
- * https://leetcode.com/problems/two-sum/description/
+ * https://ru.bykov.leetcode.com/problems/two-sum/description/
  */
 fun main(args: Array<String>) {
 

@@ -1,7 +1,7 @@
-package leetcode
+package ru.bykov.leetcode
 
 /**
- * https://leetcode.com/problems/assign-cookies/
+ * https://ru.bykov.leetcode.com/problems/assign-cookies/
  */
 fun main(args: Array<String>) {
 

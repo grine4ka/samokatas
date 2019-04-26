@@ -1,3 +1,5 @@
+package ru.bykov
+
 import java.util.*
 
 fun main(args: Array<String>) {
