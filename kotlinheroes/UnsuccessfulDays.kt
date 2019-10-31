@@ -1,3 +1,5 @@
+package kotlinheroes
+
 // CodeForces https://codeforces.com/contest/1170/problem/B
 
 import kotlin.math.min

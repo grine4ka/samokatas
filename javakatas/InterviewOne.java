@@ -1,4 +1,4 @@
-package ru.bykov.javakatas;
+package javakatas;
 
 /**
  * Created by g.bykov on 02/02/2017.

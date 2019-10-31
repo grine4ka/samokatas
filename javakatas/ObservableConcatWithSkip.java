@@ -1,4 +1,4 @@
-package ru.bykov.javakatas;
+package javakatas;
 
 import rx.Single;
 import rx.schedulers.Schedulers;

@@ -1,4 +1,4 @@
-package ru.bykov.javakatas;
+package javakatas;
 
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;

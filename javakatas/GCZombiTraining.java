@@ -1,4 +1,4 @@
-package ru.bykov.javakatas;
+package javakatas;
 
 public class GCZombiTraining {
 

@@ -1,4 +1,4 @@
-package ru.bykov.javakatas;
+package javakatas;
 
 import kotlin.Pair;
 import rx.Observable;

@@ -1,11 +1,11 @@
-package eduround68
+package codeforces.eduround68
 
 import java.io.PrintWriter
 import kotlin.math.min
 
 // https://codeforces.com/contest/1194/problem/B
 // this is mine
-//fun eduround68.eduround68.eduround68.round567.round567.round573.eduround69.main(args: Array<String>) {
+//fun eduround68.eduround68.eduround68.round567.round567.round573.codeforces.codeforces.codeforces.eduround69.kotlinheroes.kotlinheroes.main(args: Array<String>) {
 //    val q = eduround68.readInt()
 //    val matrices = mutableListOf<Matrix>()
 //    for (i in 0 until q) {

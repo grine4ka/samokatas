@@ -1,4 +1,4 @@
-package eduround68
+package codeforces.eduround68
 
 import java.io.PrintWriter
 

@@ -1,4 +1,4 @@
-package round567
+package codeforces.round567
 
 import kotlin.math.max
 import kotlin.math.min

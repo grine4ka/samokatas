@@ -1,4 +1,4 @@
-package eduround69
+package codeforces.eduround69
 
 // https://codeforces.com/contest/1197/problem/B
 fun main() {

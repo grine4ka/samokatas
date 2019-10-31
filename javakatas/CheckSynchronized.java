@@ -1,4 +1,4 @@
-package ru.bykov.javakatas;
+package javakatas;
 
 import java.util.concurrent.ThreadLocalRandom;
 

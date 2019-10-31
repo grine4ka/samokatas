@@ -1,4 +1,4 @@
-package eduround68
+package codeforces.eduround68
 
 // https://codeforces.com/contest/1194/problem/A
 fun main(args: Array<String>) {

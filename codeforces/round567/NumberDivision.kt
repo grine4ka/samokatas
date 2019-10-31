@@ -1,4 +1,4 @@
-package round567
+package codeforces.round567
 
 import java.lang.Math.max
 
@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     val l = readLine()!!
     val n = readLine()!!
 
-    // 1234000056 = round567.min(123 + 4000056, 12340000 + 56)
+    // 1234000056 = codeforces.round567.min(123 + 4000056, 12340000 + 56)
     println(min(l, n))
 }
 

@@ -1,4 +1,4 @@
-package round573
+package codeforces.round573
 
 // https://codeforces.com/contest/1191/problem/B
 fun main(args: Array<String>) {
