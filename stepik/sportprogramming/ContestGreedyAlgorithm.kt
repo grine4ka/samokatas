@@ -26,7 +26,6 @@ fun main() {
 
 /** IO code start */
 private val INPUT = File("stepik/sportprogramming/contest.in").inputStream()
-//@JvmField val OUTPUT = File("output.txt").outputStream()
 //private val INPUT = System.`in`
 private val OUTPUT = System.out
 
