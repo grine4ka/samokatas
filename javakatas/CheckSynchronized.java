@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class CheckSynchronized {
 
-    static class A {
+    private static class A {
 
         private volatile int i;
 
