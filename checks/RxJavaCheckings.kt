@@ -1,4 +1,4 @@
-package ru.bykov
+package ru.bykov.checks
 
 import rx.Completable
 import rx.schedulers.Schedulers

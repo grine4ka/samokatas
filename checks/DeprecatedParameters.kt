@@ -1,4 +1,4 @@
-package ru.bykov
+package checks
 
 import kotlin.collections.ArrayList
 
@@ -9,12 +9,10 @@ import kotlin.collections.ArrayList
  */
 fun main() {
     val parameters = linkedMapOf(
-        "name" to true,
-        "surname" to true,
-        "family" to false,
-        "gender" to false,
-        "table" to false,
-        "phone" to true,
+        "a" to true,
+        "b" to false,
+        "c" to true,
+        "d" to false,
     )
 
     val notDeprecatedPositions = mutableListOf<Int>()
@@ -54,14 +52,9 @@ fun printAllSubsets(list: List<Pair<String, Boolean>>, notDeprecatedParameterPos
 }
 
 private fun Int.hasOneBitAtPositions(oneBitPositions: List<Int>): Boolean {
-    oneBitPositions.forEach { position ->
-        if (getBit(position) != 1) {
-            return false
-        }
-    }
-    return true
+    return oneBitPositions.all { hasOneBitAtPosition(it) }
 }
 
-fun Int.getBit(position: Int): Int {
-    return (this shr position) and 1
+private fun Int.hasOneBitAtPosition(position: Int): Boolean {
+    return ((this shr position) and 1) == 1
 }

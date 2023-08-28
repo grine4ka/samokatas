@@ -1,4 +1,4 @@
-package ru.bykov
+package checks
 
 import java.util.*
 

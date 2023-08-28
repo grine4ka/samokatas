@@ -1,4 +1,4 @@
-package ru.bykov
+package ru.bykov.checks
 
 fun main(args: Array<String>) {
     val map = mutableMapOf(

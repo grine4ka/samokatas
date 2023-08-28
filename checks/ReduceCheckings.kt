@@ -1,4 +1,4 @@
-package ru.bykov
+package ru.bykov.checks
 
 import rx.Observable
 

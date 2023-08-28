@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     print(twoSum(nums, 9).joinToString())
 }
 
-fun twoSum(nums: IntArray, target: Int): IntArray {
+private fun twoSum(nums: IntArray, target: Int): IntArray {
     for (i in nums.indices) {
         val first = nums[i]
         for (j in i + 1 until nums.size) {
