@@ -1,0 +1,23 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.9.10"
+    id "application"
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'checks.classpaths.app.MainKt'
+}
+
+dependencies {
+    // Two choices:
+    // 1. :lib is on the compile and runtime classpaths of :app
+    implementation project(':lib')
+
+    // 2. :lib is on the compile classpath, while :lib-alt is
+    //    on the runtime classpath.
+//    compileOnly project(':lib')
+//    runtimeOnly project(':lib-alt')
+}
