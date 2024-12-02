@@ -1,17 +1,19 @@
 package ru.bykov.checks
 
-fun main(args: Array<String>) {
+fun main() {
     val map = mutableMapOf(
-        "foo" to "bar",
-        "name" to "John"
+        "name" to "John",
+        "age" to 25
     )
-    val nameFromMap = NameFromMap(map)
-    println(nameFromMap.name)
+    val user = User(map)
+    println(user.name)
+    println(user.age)
 }
 
-class NameFromMap(
-    map: MutableMap<String, out String>
+class User(
+    val map: Map<String, Any?>
 ) {
 
     val name: String by map
+    val age: Int by map
 }

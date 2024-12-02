@@ -1,4 +1,4 @@
-package javakatas;
+package javakatas.concurrency;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -10,7 +10,7 @@ public class CheckSynchronized {
 
         synchronized void set1() {
             i += 1;
-            System.out.println("set " + i + " " + Thread.currentThread());
+            System.out.println("set " + i + " " + Thread.currentThread().getName());
         }
     }
 

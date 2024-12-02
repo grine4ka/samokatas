@@ -1,0 +1,3 @@
+# Stream Chat
+features/chat/**
+**/router/**

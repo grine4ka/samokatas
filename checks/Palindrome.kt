@@ -1,6 +1,6 @@
-package test
+package checks
 
-fun main(args: Array<String>) {
+fun main() {
     println("Palindrome check")
 
 
